@@ -1,5 +1,67 @@
 # **Version Control and Update Procedures**
 
+The provided text describes the basic workflow for using Git, a version control system, to manage code projects. It outlines the steps involved in cloning or initializing a repository, fetching and merging updates, creating and pushing changes, and collaborating with others through forking and pull requests. Additionally, it provides a brief overview of other essential Git commands for working with branches, viewing commit history, and ignoring files.
+
+## **navigation**
+
+- [Version Control Guidelines](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#version-control-guidelines)
+
+## **Own Repository**
+
+- [Own repo workflow](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#workflow-own-repo)
+- [Clone the repository](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#clone-the-repo-you-want-to-work-on-if-it-already-exists)
+- [initialize a new git repository](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#initialize-a-new-git-repository-if-the-repo-doesnt-exist-yet)
+- [fetching and merging](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#if-the-repo-is-already-cloned-to-your-local-environment-fetching-and-merging-updates)
+- [New branch](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#create-a-new-feature-branch)
+- [when done with the new branch](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#after-youre-done-with-your-work-on-the-new-branch)
+
+## **forked repository**
+
+- [Forked worksflow](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#workflow-forked-repo)
+- [How to fork a repo](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#fork-the-repository-on-github)
+- [Clone the forked repo](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#clone-the-forked-repository-to-your-local-machine)
+- [Setting an upstream](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#set-up-upstream-remote)
+- [Fetch upstream](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#fetch-changes-from-upstream)
+- [Create branch](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#create-a-feature-branch)
+- [Create a pull request](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#after-youre-done-with-you-are-work-on-the-new-branch)
+
+## **Remote repository**
+
+- [Remote repositories](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#working-with-remote-repositories)
+- [Fetch remote](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#fetching-changes)
+- [Pushing remote](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#pushing-changes)
+- [Rename remote](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#renaming-a-remote)
+- [Remove remote](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#removing-a-remote)
+
+## **woking with branches**
+
+- [Working with branches](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#working-with-branches)
+- [Listing branches](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#listing-branches)
+- [Creating branches](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#creating-a-new-branch)
+- [Switch to a different branch](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#switching-to-a-different-branch)
+- [Deleting a branch](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#deleting-a-branch)
+- [Merging branches](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#merging-branches)
+- [Rebasing a branch](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#rebasing-a-branch)
+
+## **Undoing changes**
+
+- [Reverting a commmit](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#reverting-a-commit)
+- [Resetting to a previous commit](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#resetting-to-a-previous-commit)
+
+## **viewing commit history**
+
+- [View commit hisetory](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#viewing-commit-history)
+- [View commit logs](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#viewing-commit-logs)
+- [View commit details](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#viewing-commit-details)
+
+## **ignoring files**
+
+- [Ignoring files](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#ignoring-files)
+
+## **SSH key generation**
+
+- [Generating SSH](https://github.com/Aiche-H/Git-Basic-use?tab=readme-ov-file#generating-an-ssh-key)
+
 ## Version Control Guidelines
 
 - We will use Git for version control.
